@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b5f94">
+<title>Hors connexion — Clinique Saint-Luc</title>
+<style>
+  body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#f4f7fb;color:#13202b;display:grid;place-items:center;min-height:100vh;padding:20px}
+  main{max-width:420px;width:100%;background:#fff;border-radius:20px;padding:28px 22px;box-shadow:0 6px 24px rgba(19,32,43,.08);text-align:center}
+  h1{font-size:22px;margin:0 0 8px} p{color:#5d6d7b;line-height:1.5;margin:0 0 18px}
+  a,button{display:block;width:100%;box-sizing:border-box;border:0;border-radius:99px;padding:14px;font:700 15px inherit;text-decoration:none;cursor:pointer;margin-top:10px}
+  .red{background:#b3131b;color:#fff}.pink{background:#fde4e2;color:#b3131b}.blue{background:#0b5f94;color:#fff}.grey{background:#eceff3;color:#13202b}
+</style>
+</head>
+<body>
+<main>
+  <h1>Vous êtes hors connexion</h1>
+  <p>Les rendez-vous et votre dossier nécessitent une connexion internet. En cas d'urgence, appelez directement :</p>
+  <a class="red" href="tel:118">Appeler les pompiers (118)</a>
+  <a class="pink" href="tel:117">Appeler la police (117)</a>
+  <a class="grey" href="tel:+22890000000">Standard de la clinique</a>
+  <button class="blue" onclick="location.reload()">Réessayer</button>
+</main>
+</body>
+</html>
